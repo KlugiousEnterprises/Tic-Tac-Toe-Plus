@@ -1,0 +1,29 @@
+#BlueJ class context
+comment0.params=x
+comment0.target=Board(int)
+comment0.text=\r\n\ Initializes\ a\ square\ x\ by\ x\ game\ board\r\n
+comment1.params=
+comment1.target=void\ makeBoard()
+comment1.text=\r\n\ Fills\ in\ the\ game\ board\ with\ a\ single\ space\ for\ each\ location\r\n
+comment2.params=
+comment2.target=void\ printBoard()
+comment2.text=\r\n\ prints\ out\ the\ board\ using\ a\ tab\ in\ between\ each\ column\ and\ two\ lines\ between\ each\ row.\r\n
+comment3.params=r\ c
+comment3.target=boolean\ emptySpace(int,\ int)
+comment3.text=\r\n\ Checks\ for\ empty\ spaces\ on\ the\ board.\r\n\ @param\ r\:\ 0\ <\=\ r\ <\ gameBoard.length\r\n\ @param\ c\:\ 0\ <\=\ c\ <\ gameBoard[r].length\r\n\ return\ true\ if\ the\ space\ is\ empty\r\n
+comment4.params=r\ c
+comment4.target=boolean\ spaceIsFull(int,\ int)
+comment4.text=\r\n\ Checks\ for\ spaces\ filled\ in\ by\ an\ X\ or\ an\ O\r\n\ @param\ r\:\ 0\ <\=\ r\ <\ gameBoard.length\r\n\ @param\ c\:\ 0\ <\=\ c\ <\ gameBoard[r].length\r\n\ return\ true\ if\ the\ space\ holds\ an\ X\ or\ an\ O\r\n
+comment5.params=str\ r\ c
+comment5.target=void\ fillSpace(java.lang.String,\ int,\ int)
+comment5.text=\r\n\ @param\ str\ is\ not\ null\r\n\ @param\ r\:\ 0\ <\=\ r\ <\ gameBoard.length\r\n\ @param\ c\:\ 0\ <\=\ c\ <\ gameBoard[r].length\r\n
+comment6.params=arr
+comment6.target=boolean\ elementsEqual(java.lang.String[])
+comment6.text=\r\n\ @param\ all\ elements\ of\ arr\ have\ been\ initialized\r\n\ @return\ true\ if\ all\ of\ the\ elements\ of\ arr\ are\ the\ same\r\n
+comment7.params=
+comment7.target=boolean\ winner()
+comment7.text=\r\n\ @return\ true\ if\ all\ the\ elements\ in\ any\ row,\ column,\ the\ main\ diagonal,\ or\ the\ reverse\ main\ diagonal\ are\ the\ same\r\n
+comment8.params=
+comment8.target=boolean\ tie()
+comment8.text=\r\n\ returns\ true\ if\ the\ board\ is\ filled\ and\ there\ is\ no\ winner\r\n
+numComments=9
